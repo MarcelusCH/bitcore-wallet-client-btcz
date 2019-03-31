@@ -2,7 +2,7 @@
   "name": "bitcore-wallet-client-btcz",
   "description": "Client for bitcore-wallet-service-btcz",
   "author": "BitcoinZ Community",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "license": "MIT",
   "keywords": [
     "bitcoin",
@@ -26,7 +26,7 @@
   "dependencies": {
     "async": "^0.9.0",
     "bip38": "^1.3.0",
-    "bitcore-lib-btcz": "git+https://github.com/bitcoinz-wallets/bitcore-lib-btcz.git#v1.0.2",
+    "bitcore-lib-btcz": "git+https://github.com/bitcoinz-wallets/bitcore-lib-btcz.git#v2.0.0",
     "bitcore-mnemonic": "^1.2.2",
     "bitcore-payment-protocol": "^1.2.2",
     "json-stable-stringify": "^1.0.0",
@@ -36,7 +36,7 @@
     "superagent": "^3.4.1"
   },
   "devDependencies": {
-    "bitcore-wallet-service-btcz": "git+https://github.com/renuzit/bitcore-wallet-service-btcz.git",
+    "bitcore-wallet-service-btcz": "git+https://github.com/bitcoinz-wallets/bitcore-wallet-service.git#v2.0.0",
     "browserify": "^13.1.0",
     "chai": "^1.9.1",
     "coveralls": "^2.11.2",
